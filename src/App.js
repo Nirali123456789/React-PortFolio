@@ -7,8 +7,10 @@ import Contact from "./routes/Contact";
 import About from "./routes/About";
 import { BrowserRouter, Route,Routes } from "react-router-dom";
 
+
 function App()
 {
+  
   return(
     <BrowserRouter>
    <Routes>

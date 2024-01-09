@@ -1,93 +1,101 @@
-  .mask
-{
-    width: 100%;
-    height: 100vh;
+  .mask {
+      width: 100%;
+      height: 100vh;
 
-}
-.into-img
-{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-}
-.mask::after
-{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.8;
-}
-.myhero
-{
-    height: 100%;
-    width: 100%;
-}
-.myhero.content
-{
-    position: absolute;
-    transform:translate(-50%,-50%) ;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-  
-    justify-content: center;  
-   
-}
-.content h1
-{
-   font-size: 2rem;
-   padding: 0.1rem;
-   text-align: center;
-   justify-content: center; 
-   top: 90%; 
-   position: absolute;
-   margin-left: 42%;
-    
-  
-}
-.content p
-{
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-transform: uppercase;
-    text-align: center;
-    justify-content: center; 
-    top: 80%; 
-    position: absolute;
-    margin-left: 42%;
- 
-}
-
-.content.btn
-{
-    margin: 1rem 0.2rem;
-    
-}
-.content.btn-light
-{
-    margin: 1rem 0.2rem;
-    padding: 10rem 19rem;
-}
+  }
 
 
-@media screen  and (max-width:640px)
+  .into-img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      object-fit: cover;
+  }
 
-{
-    .myhero .content h1
-{
-    font-size: 4rem;
-    
-}
-.myhero .content p
-{
-font-size: 1.4rem;
-  
-}
+  .mask::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.8;
+  }
 
-}
+  .myhero {
+      height: 100%;
+      width: 100%;
+      position: relative;
+  }
+
+  .myhero.content {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      justify-content: center;
+
+  }
+
+  .content h1 {
+      font-size: 2rem;
+      padding: 0.1rem;
+      text-align: center;
+      justify-content: center;
+      top: 90%;
+      position: absolute;
+      margin-left: 42%;
+
+
+  }
+
+  .content p {
+      font-size: 2.4rem;
+      font-weight: 200;
+      text-align: center;
+      justify-content: center;
+      margin-inline-start: 20%;
+      top: 60%;
+      position: absolute;
+      font-family: 'Manrope', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .typingText {
+      display: flex;
+      align-items: center;
+
+
+  }
+
+
+  .content.btn {
+      margin: 1rem 0.2rem;
+
+  }
+
+  .content.btn-light {
+      margin: 1rem 0.2rem;
+      padding: 10rem 19rem;
+  }
+
+
+
+  @media screen and (max-width:640px) {
+      .myhero .content h1 {
+          font-size: 4rem;
+
+      }
+
+      .myhero .content p {
+          font-size: 1.4rem;
+
+      }
+
+  }
+
+  @media (min-width: 800px) {}

@@ -1,29 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Open+Sans:wght@500&display=swap');
 
-*{
-  box-sizing:border-box;
-  margin:0;
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Open+Sans:ital,wght@0,500;1,800&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
   align-content: center;
- align-items: center;
-  font-family: "Output",sans-serif;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-body
-{
+
+body {
   background: black;
 }
 
 h1,
-h4,p,
-a{
+h4,
+p,
+a {
   color: #fff;
   text-decoration: none;
 }
-ul{
-  list-style:none ;
+
+ul {
+  list-style: none;
 }
-.btn
-{
+
+.btn {
 
   background: rgb(69, 43, 165);
   align-items: center;
@@ -31,53 +39,48 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  
   border: 1 px solid #fff;
   text-align: center;
-  justify-content: center;  
+  justify-content: center;
   margin-left: 42%;
-  
+
   top: 50%;
   font-weight: 600;
   position: absolute;
 
   text-align: center;
-  justify-content: center;  
+  justify-content: center;
 
 
 
 
 
 
-  
+
 }
 
-.btn-light
-{
-  
-align-items: center;
+.btn-light {
+
+  align-items: center;
   color: #fff;
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background:rgba(202, 202, 202, 0.1);
+  background: rgba(202, 202, 202, 0.1);
   border: 1 px solid #fff;
   text-align: center;
-  justify-content: center;  
+  justify-content: center;
   margin-left: 55%;
- 
   top: 50%;
   font-weight: 600;
   position: absolute;
-
   text-align: center;
-  justify-content: center;  
- 
+  justify-content: center;
+
 }
 
-.btn-hover
-{
-  background: rgb(15, 22, 217);
+.btn-hover {
+  background: rgb(69, 43, 165);
   color: #fff;
   transition: 0.3s;
 }

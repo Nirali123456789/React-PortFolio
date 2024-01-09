@@ -6,22 +6,10 @@ import Typewriter from "typewriter-effect";
 const Contact = () => {
   return (
     <div>
-  <Navbar/>
-  <div>
-  <Typewriter
-   options=
-  {
-    {
+      <Navbar />
 
-      autoStart:true,
-      loop:true,
-      delay:50,
-      strings:["I am Android","React Developer.Let's have a chat."]
-    }
-  }
-></Typewriter>
-</div>
-     <Footer/>
+
+      <Footer />
     </div>
   )
 }
